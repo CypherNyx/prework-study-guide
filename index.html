@@ -48,12 +48,27 @@
           <li><strong>git push:</strong> Uploads my local commits to cloud, updating it with latest changes.</li>
           <li><strong>git pull: </strong>Fetches changes from a remote repository and merges them into my local branch, updating my local code with the latest changes from others.</li>
           <li><strong>git clone [repository_url]:</strong> Copies a remote repository to my local IDE, creating a local copy to work with.</li>
-          <li><strong>git commit -m "[commit_message]":</strong> Commits the staged changes to the repository, creating a new version with a descriptive commit message.</li>
+          <li><strong>git add -A:</strong> Commit all files in the working branch.</li>
+          <li><strong>git commit -m "[commit_message]":</strong> Commits the staged changes to the repository, We use the -m flag to associate a message with our commit.</li>
           <li><strong>git branch:</strong> Lists all existing branches in the repository. </li>
           <li><strong>git checkout [branch_name]:</strong> Switches to a different branch in repository. </li>
           <li><strong>git merge [branch_name]:</strong> Merges changes from a different branch into the current branch, combining the changes and resolving conflicts if necessary.</li>
           <li><strong>git log:</strong> Displays a chronological list of commits, showing the commit history of the repository.</li>
         </ul>
+
+        <div id="gitflow-steps">
+          <h2><i>GIT FLOW Steps</i></h2>
+          <ol>
+            <li>Add: "git add -A"</li>
+            <li>Commit:  git commit -m "Commit messages should be short descriptive"</li>
+            <li>"git pull origin main": It is a good habit to always pull the base branch before pushing up any code.</li>
+            <li>Push to Branch "git push origin [branch]"</li>
+            <li>Open Pull Request on Github</li>
+            <li>Merge changes to Main Branch</li>
+            <li>Close Github Issue</li>
+          </ol>
+
+        </div>
    
       </section>
    
