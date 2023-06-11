@@ -1,4 +1,4 @@
-# Dahlia's Study Guide Webpage: HTML, CSS, Git + JavaScript
+# Dahlia's Study Guide Webpage
 
 ## Description
 This project is a comprehensive and accessible resource for learning web development. It provides a structured content hub of notes and key concepts to remember about HTML, CSS, JavaScript, and Git. 
