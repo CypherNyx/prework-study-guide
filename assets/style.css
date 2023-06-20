@@ -1,71 +1,90 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header,
 footer {
-    width: 100%;
-    height: 150px;
-    background-color: #0a0082;
-    color: white;
+  width: 100%;
+  height: 150px;
+  background-color: #0a0082;
+  color: white;
 }
 
 h1,
 h2 {
-    text-align: center;
-    padding-bottom: 12px;
+  text-align: center;
+  padding-bottom: 12px;
 }
 
 img {
-    display: block;
-    padding: 2em;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  padding: 2em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #header > img {
-    display: block;
-    height: 50px;
-    width: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0em;
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0em;
 }
 
 ul {
-    padding-left: 40px;
-    font-size: 20px;
+  padding-left: 40px;
+  font-size: 20px;
 }
 
 p {
-    text-align: center;
-    font-size: 30px;
-  }
-p.steps  {
-    text-align: left;
-    font-size: 1.5rem;
-    margin-top: 3%;
-    margin-bottom: 2%;
+  text-align: center;
+  font-size: 30px;
+}
+p.steps {
+  text-align: left;
+  font-size: 1.5rem;
+  margin-top: 3%;
+  margin-bottom: 2%;
 }
 
 .card {
-    width: 80%;
-    margin: 40px auto;
-    border: 5px solid #081e3f;
-    box-shadow: 5px 10px #516481;
-    padding: 14px;
-  }
+  width: 80%;
+  margin: 40px auto;
+  border: 5px solid #081e3f;
+  box-shadow: 5px 10px #516481;
+  padding: 14px;
+}
 
 #gitflow-steps {
-    padding: 5%;
-    margin: 5%;
-    background-color: #e4e4f5;
+  padding: 5%;
+  margin: 5%;
+  background-color: #e4e4f5;
 }
 
-li{
-   line-height: 1.5;
-  
+li {
+  line-height: 1.5;
 }
 
-  
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  padding-left: 9%;
+}
+nav > ul > li {
+  float: left;
+  border-right: 1px solid #3a3a3a;
+}
+
+nav > ul > li a {
+  display: block;
+  padding: 15px;
+  background-color: #333333;
+  color: #f9c23c;
+  font-size: 2rem;
+  font-family: monospace;
+}
